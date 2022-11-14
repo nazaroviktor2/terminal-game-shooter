@@ -40,7 +40,7 @@ class Hero:
         self.health = health
         self.__WEAPONS_USED = []
         self.display_color = display_color
-        self.__last_move_vector = None
+        self.__last_move_vector = Hero.VECTOR_RIGHT
 
     def __str__(self):
         """Makes hero to str."""
@@ -139,7 +139,7 @@ class Hero:
                                 pos_x=self.__pos_x,
                                 pos_y=self.pos_y
                                 )
-            new_weapon.move()  # after spawn immediately moves
+
             self.__WEAPONS_USED.append(new_weapon)  # add to used weapons
 
     def get_used_weapons(self):
