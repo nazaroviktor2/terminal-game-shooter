@@ -1,5 +1,6 @@
-# Shell game 
-## Alibp VS Michelin
+# Shell game  Alibo VS Michelin
 
-- for run use:
-- $ sudo python3 ./main.py 
+## for run use
+> $ pip install colorama
+
+> $ sudo python3 ./main.py 
